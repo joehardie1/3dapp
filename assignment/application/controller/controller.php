@@ -28,37 +28,10 @@ class Controller {
 		$data = $this->model->dbInsertData();
 	   	$this->load->view('viewMessage', $data);
 	}  
-
-	function apiGetData()
-	{
-		$data = $this->model->dbGetData();
-		$this->load->view('view3DAppdata', $data);
-	}  
-
-	function apiGetJson()
-	{
-		$this->load->view('viewJson');
-	}
-
 	function apiLoadImage()
 	{
 	   $data = $this->model->dbGetBrand();
 	   $this->load->view('viewDrinks', $data);
-	}
-	
-	function dbCreateTable()
-	{
-		echo "Create Table Function";
-	}
-
-	function dbInsertData()
-	{
-		echo "Data Insert Function";
-	}
-
-	function dbGetData()
-	{
-		return array("-", "Coke", "Oasis", "Fanta");
 	}
 
 }

@@ -1,20 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Note updated to 4.3.1 -->
-
-    <!-- X3DOM.css -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel='stylesheet' type='text/css' href='../css/x3dom.css'>
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/custom.css">
-
-    <!-- Let's add some fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
@@ -23,7 +14,6 @@
   <body id="bodyColor">
     <nav id="headerColor" class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
         <div class="container-fluid"> 
-            <!-- Brand -->
             <div class="logo">
                     <a class="navbar-brand" href="#">
                         <h1>1oca</h1>
@@ -31,14 +21,11 @@
                     </a>
             </div>
 
-            <!-- Navbar Menu Icon -->
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
             </button>
             
-            <!-- link Menu Icon button to the links class navbar-collapse selector] -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a id="navHome" class="nav-link active" href="#">Home</a>
@@ -47,7 +34,6 @@
                             <a id="navAbout" class="nav-link"  href="#">About</a>
                     </li>
                 
-                    <!-- Dropdown -->
                     <li class="nav-item">
                         <a id="navModels" class="nav-link"  href="#">Models</a>
                     </li>
@@ -59,9 +45,7 @@
         </div>
     </nav>
 
-    <!-- This is the main contents of the SPA -->
-    <div class="container-fluid"> <!-- Start SPA Contents -->
-        <!-- This is the home page contents -->
+    <div class="container-fluid">
         <div class="main_contents" id="home">
             <div class="row">
                 <div id="main_image_container" class="col-sm-12">
@@ -70,7 +54,6 @@
                 </div>
             </div>
             
-            <!-- A row to hold three cards for the Coke, oasis and fanta contents -->
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
@@ -252,7 +235,7 @@
     </div>
 
     <div id="about" >
-        <p>Github Repository: <a href=""></a></p>
+        <p><a href="https://github.com/joehardie1/3dapp">Github Repository</a></p>
     </div>  
 
     <div id="contact" >

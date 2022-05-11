@@ -1,7 +1,6 @@
 // JavaScript Document
 $(document).ready(function(){
 
-    //AJAX service request to get the main text data from the json data store
     $.getJSON('../data.json', function(jsonObj) {
        $('#title').html('<h2>' + jsonObj.pageTextData[0].title + '<h2>');
        $('#main_image').html('<p>' + jsonObj.pageTextData[0].description + '</p>');
